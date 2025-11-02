@@ -1,0 +1,28 @@
+{
+    // --------------------------------------------------------------------------------
+    // PART 1: CONTENT FOR c_cpp_properties.json (Fixes Red Underlines / IntelliSense)
+    // --------------------------------------------------------------------------------
+    "c_cpp_properties.json": {
+        "configurations": [
+            {
+                "name": "Local MinGW C Compiler",
+                "includePath": [
+                    "${workspaceFolder}/**",
+                    // Simple, local path to find standard headers
+                    "C:/MinGW/lib/gcc/i686-w64-mingw32/*/include/**",
+                    "C:/MinGW/i686-w64-mingw32/include/**"
+                ],
+                "defines": [
+                    "_DEBUG",
+                    "UNICODE",
+                    "_UNICODE"
+                ],
+                // **UPDATED LOCAL PATH TO C COMPILER**
+                "compilerPath": "C:/MinGW/bin/gcc.exe",
+                "cStandard": "c17",
+                "cppStandard": "c++17",
+                "intelliSenseMode": "gcc-x86"
+            }
+        ],
+        "version": 4
+    }

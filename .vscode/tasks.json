@@ -1,0 +1,29 @@
+ "tasks.json": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "C/C++ Build (Basic Working)",
+                "type": "shell",
+                // **UPDATED LOCAL PATH TO C COMPILER**
+                "command": "C:/MinGW/bin/gcc.exe",
+                "args": [
+                    "-g",
+                    "${file}",
+                    "-o",
+                    "${fileDirname}/${fileBasenameNoExtension}.exe"
+                ],
+                "options": {
+                    "cwd": "${fileDirname}"
+                },
+                "problemMatcher": [
+                    "$gcc"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "detail": "Task generated to compile basic C files using local MinGW path."
+            }
+        ]
+    }
+}
