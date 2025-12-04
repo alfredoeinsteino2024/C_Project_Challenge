@@ -18,7 +18,7 @@ SDL_Rect worldToScreen(WorldRect w, Camera cam){
     r.h = w.h;
     r.w = w.w;
     r.x = w.x - cam.x + WINDOW_WIDTH / 2;
-    r.y = w.y - cam.y + WINDOW_WIDTH / 2;
+    r.y = w.y - cam.y + WINDOW_HEIGHT / 2;
     return r;
 }
 
