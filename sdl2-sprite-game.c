@@ -13,7 +13,7 @@ typedef struct {
 typedef struct {
     float x, y;
 } Camera;
-
+// CHECKING FOR OVERLAP
 bool checkOverlap(WorldRect A, WorldRect B){
     if(A.x >= B.x + B.w) return false; // A completely right of B
     if(A.x + A.w <= B.x) return false; // A completely left of B
