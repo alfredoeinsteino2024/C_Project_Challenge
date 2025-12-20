@@ -18,7 +18,7 @@ bool checkOverlap(WorldRect A, WorldRect B){
     if(A.x + A.w <= B.x) return false;
     if(A.y >= B.y + B.h) return false;
     if(A.y + A.h <= B.y) return false;
-
+    
     return true;
 }
 
@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
     WorldRect Player = {0, 0, 100, 150};
     WorldRect Car1 = {-500, 700, 300, 200};
     WorldRect Car = {400, 700, 300, 200};
-    WorldRect Truck = {1000, 400, 300, 200};
+    WorldRect Truck = {100, 400, 300, 200};
     WorldRect Hotel = {150, 80, 500, 500};
     WorldRect Beach = {-1000, 100, 15000, 6000};
     WorldRect Rock = {-1800, -600, 1000, 500}; 
