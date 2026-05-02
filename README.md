@@ -9,7 +9,7 @@ Complete 14 C programming projects to master C and game development.
 1. ✅ Calculator Program
 
 ### In Progress
-2. 🚧 Flappy Bird Game (Learning SDL2)
+2. 🚧 [Flappy Bird Game](https://github.com/alfredoeinsteino2024/flappy-puppy) (Learning SDL2)
 
 ### Planned
 3-14: Coming soon...
